@@ -1,0 +1,32 @@
+# Build output
+bin/
+obj/
+publish/
+TestResults/
+*.user
+.vs/
+.vscode/
+.idea/
+
+# LocalVault runtime data — never commit a vault, settings or logs
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+settings.json
+error.log
+*.log
+
+# Secrets / signing material
+*.pfx
+*.snk
+*.pem
+*.key
+.env
+.env.*
+
+# Generated preview (recreate with tools/MakeIcon.ps1)
+tools/icon-preview.png
+
+# Local agent / editor state
+.claude/
